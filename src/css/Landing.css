@@ -1,0 +1,96 @@
+/** banner_main **/
+
+.banner_main {
+   
+    height: 1034px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bg_navvv{
+    background: url(../images/landing_bg.jpeg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.bg-navvv-color
+
+{
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    background-color: #fe9a0c;
+    margin: 0px 4px;
+    cursor: pointer;
+}
+
+.carousel-indicators li.active {
+    background-color: #fff;
+}
+
+.carousel-indicators {
+    top: 122%;
+    margin-left: 5%;
+    right: inherit;
+}
+
+.banner_main {
+    position: relative;
+}
+
+.relative {
+    position: inherit;
+    bottom: 0;
+    padding: 0;
+}
+
+.bg_white {
+    background: #fffffff0;
+    padding: 45px 20px 50px 20px;
+}
+
+.banner_main .bg_white h1 {
+    color: #141111;
+    font-size: 70px;
+    line-height: 84px;
+    font-weight: 700;
+    padding-bottom: 22px;
+}
+
+.banner_main .bg_white p {
+    color: #2d2d2d;
+    line-height: 30px;
+    font-weight: 500;
+    padding-bottom: 0px;
+}
+
+.banner_main .ban_btn {
+    display: block;
+    background: #fff;
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+.ban_btn .carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: none;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .bg_navvv {
+        background: url(../images/landing_bg.jpeg) !important;
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    }
+}

@@ -1,0 +1,29 @@
+/** building **/
+
+.building {
+    padding-top: 323px;
+    background: url(../images/bg.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 223px;
+   
+}
+
+.building .titlepage h2 {
+    
+}
+
+.building .titlepage p {
+    color: #fff;
+    line-height: 30px;
+    padding-top: 30px;
+    display: block;
+}
+
+.yello {
+    color: rgba(0, 0, 0, 0.596);
+}
+
+
+/** end building **/

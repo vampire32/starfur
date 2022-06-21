@@ -1,0 +1,82 @@
+/** instant **/
+
+.instant {
+    background: #A85CF9;
+    position: relative;
+}
+
+.instant::before {
+    background: url(../images/image1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 363px;
+    bottom: -363px;
+}
+
+
+.instant .titlepage {
+    padding-top: 40px;
+    max-width: 559px;
+    float: right;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.instant .titlepage h2 {
+    font-weight: 600;
+    text-transform: none;
+    color: #fff;
+    font-size: 85px;
+    line-height: 95px;
+}
+
+.instant .titlepage p {
+    color: #fff;
+    line-height: 30px;
+    font-weight: 500;
+    padding: 30px 0 55px 0;
+}
+
+.instant .titlepage .read_more:hover {
+    background: #fff;
+    color: #000;
+}
+
+.instant_img {
+    margin-top: 220px;
+    z-index: 9999;
+    position: relative;
+}
+
+.instant_img figure {
+    margin: 0;
+}
+
+.instant_img figure img {
+    width: 100%;
+}
+
+
+/** end instant **/
+.btn-design 
+{
+    background-color: rgba(0, 0, 0, 0);
+ border: 1px solid white;
+ 
+    
+}
+.btn-design a
+{
+ text-decoration: none;
+    
+}
+.btn-design:hover
+{
+ background-color: rgb(255, 196, 0);
+ color: black;
+ text-decoration: none;
+    
+}
