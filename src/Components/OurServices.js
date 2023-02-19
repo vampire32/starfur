@@ -39,9 +39,9 @@ const OurServices = () => {
   return (
 		<div className="services_section layout_padding bg-white ">
 			<div className="container">
-				<h1 className="services_taital" data-aos="fade-in">
+				<span className="services_taital" data-aos="fade-in">
 					our services
-				</h1>
+				</span>
 				<p className="many_taital" data-aos="fade-in">
 					Relaible And Trustworthly Services in Abu dhabi{" "}
 				</p>

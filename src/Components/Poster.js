@@ -18,52 +18,6 @@ const Poster = (props) => {
 								More <span style={{color:"#d9c7a4"}}>About</span>{" "}
 							</p>
 							<div className="border"></div>
-				{/* <div className="row" data-aos="fade-up">
-					<div className="col-lg-6">
-						<div className="about-content mt-45">
-							<h1 className="text-[#d9c7a4]">{props.title}</h1>
-							<h2 className=" mt-10 text-black">Reasons to choose</h2>
-
-							<p className=" mt-24 pb-10">{props.desc}</p>
-							<h1 className=" text-[#d9c7a4]">{props.title2}</h1>
-							<p className=" mt-24 pb-10 mt-[2rem]">{props.desc2}</p>
-
-							<a className="btnn " href="tel:03059342229">
-								Call Now
-							</a>
-						</div>
-					</div>
-					<div className="col-lg-6 flex justify-center mt-[2rem]">
-						<div className="about-image mt-50 clearfix">
-							<div className="single-image float-left">
-								<p className=" p-[100px] ">{props.imgdesc}</p>
-							</div>
-							
-						</div>
-					</div>
-				</div>
-				<div className="row mt-28" data-aos="fade-right">
-					<div className="col-lg-6 flex justify-center">
-						<div className="about-image mt-50 clearfix">
-							<div className="single-image float-left">
-								<p className=" p-[100px]">{props.imgdesc2}</p>
-							</div>
-							
-						</div>
-					</div>
-					<div className="col-lg-6 mt-[2rem]">
-						<div className="about-content mt-45">
-							<h1 className="text-[#d9c7a4]">{props.title3}</h1>
-							<h2 className=" mt-10 text-black">Reasons to choose</h2>
-							<p className=" mt-24 pb-10">{props.desc3}</p>
-							<h1 className="text-[#d9c7a4]">{props.title4}</h1>
-							<p className=" mt-24 pb-10">{props.desc4}</p>
-							<a className="btnn" href="tel:03059342229">
-								Call Now
-							</a>
-						</div>
-					</div>
-				</div> */}
 				<div className="accordion " id="accordionExample">
 					<div className="accordion-item">
 						<h2 className="accordion-header" id="headingOne">

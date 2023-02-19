@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta name="google-site-verification" content="JQVop2-lD3UFsEQy32a5hNAMWB9TvjXstuhcy_YelUA" />
+ 
+   
 
     <meta
       name="description"
       content="We buy and sell used furniture in Abu Dhabi. Star used furniture offers used home appliances | household items | used furnitures in Abu Dhabi."
       data-rh="true"
     />
+    <meta name="keywords" content="used furniture buyer abu dhabi,used furniture abu dhabi mussafah,used furniture abu dhabi,used furniture,second hand furniture abu dhabi,furniture stores,second hand furniture abu dhabi mussafah,use furniture abu dhabi,furniture shops,furniture abu dhabi,used furniture mussafah,second hand furniture,used furniture shops in abu dhabi,furniture stores in abu dhabi,used furniture for sale,used furniture in abu dhabi,sell used furniture in dubai,used furniture shops in abu dhabi mussafah,mussafah used furniture market,buy used furniture,home furniture abu dhabi,used furniture in mussafah,office furniture abu dhabi,used furniture for sale in mussafah,second hand furniture in abu dhabi,furniture for sale in abu dhabi,used bedroom furniture for sale in abu dhabi,used furniture shop in mussafah,furniture for sale abu dhabi,sofa set for sale in abu dhabi,home furniture for sale in abu dhabi,used furniture shops in mussafah,furniture shops in uae,used furniture buyers,furniture for sale in uae,sofa set abu dhabi,abu dhabi used furniture,cheap furniture abu dhabi,mussafah second hand furniture,sell used furniture abu dhabi," />
     <link rel="canonical" href="/"/>
 
 
@@ -40,7 +43,9 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    
     <div id="root"></div>
+    
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -58,27 +63,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
   </script>
   
-<script>
-  var btn = $('#sending');
-  var namee =$('#Name').value;
-  var email = $('#Email').value;
-  var phone = $('#Phone').value;
-  var message = $('#Message').value;
-  var body= 'name:'+  namee  +'<br/> email'+ email+ '<br/> phone'+phone+ '<br/> message'+message 
 
-    btn.addEventListener('click', function (e) {
-      e.preventDefault()
-      Email.send({
-        Host: "smtp.gmail.com",
-        Username: "moizabdul320@gmail.com",
-        Password: "Rubabmoiz@1022!",
-        To: "moizabdul320@gmail.com",
-        From: email,
-        Subject: "New Message from Furniture site",
-        Body: body,
-      }).then((message) => alert(message));
-    })
-</script>
 
 <script type="text/javascript">
   $(".owl-carousel").owlCarousel({

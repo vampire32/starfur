@@ -13,6 +13,9 @@ import twitter from '../images/twitter.png'
 import yt from '../images/youtube.png'
 import link from '../images/linkedin.png'
 import "../css/testimonials.css";
+import {AiOutlineGooglePlus} from 'react-icons/ai';
+import{FaFacebookF} from 'react-icons/fa'
+import {GrInstagram} from 'react-icons/gr';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 
@@ -49,7 +52,8 @@ const Footer = () => {
 										<img src={location} width="18px" alt="" />
 									</div>
 									<p>
-										Musaffah - Mussafah 39 - Abu Dhabi - United Arab Emirates
+										Ad Doja 2 St - Musaffah - Musaffah Industrial - Abu Dhabi -
+										United Arab Emirates
 									</p>
 								</div>
 								<div>
@@ -228,17 +232,14 @@ const Footer = () => {
 								</div>
 
 								<div className="social_box">
-									<a href="">
-										<img src={fb} alt="" />
+									<a href="https://www.facebook.com/Star-Used-Furniture-111687324911690">
+										<FaFacebookF />
 									</a>
-									<a href="">
-										<img src={twitter} alt="" />
+									<a href="/">
+										<GrInstagram />
 									</a>
-									<a href="">
-										<img src={link} alt="" />
-									</a>
-									<a href="">
-										<img src={yt} alt="" />
+									<a href="mailto:info@starfurniture.com">
+										<AiOutlineGooglePlus />
 									</a>
 								</div>
 							</div>

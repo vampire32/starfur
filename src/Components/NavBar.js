@@ -8,32 +8,14 @@ const mystyle = {
   };
 
 const NavBar = (props) => {
-     const navList = [
-				{
-					pageName: "Home",
-					link: "/",
-				},
-				{
-					pageName: "About",
-					link: "/about",
-				},
-				{
-					pageName: "Services",
-					link: "/services",
-				},
-				
-				{
-					pageName: "Contact us",
-					link: "/Contactus",
-				},
-			];
+    
   return (
 	 
 		<nav className={`navbar navbar-expand-lg  navbar-${props.theme}`}>
 			<div className="container-fluid">
 				<Link className={`navbar-brand text-${props.color}`} to="/">
-					  <img src={Main_logo} alt="" width="30" height="24" class="d-inline-block align-text-top"/>
-					Star Furnitures
+					  <img src={Main_logo} alt="" width="108px" height="101px" class="d-inline-block align-text-top"/>
+					STAR FURNITURE
 				</Link>
 				<button
 					className="navbar-toggler"
@@ -98,7 +80,7 @@ const NavBar = (props) => {
 						</li>
 					</ul>
 					<form  class="flex lg:justify-content-end center_item  ">
-						<a style={{backgroundColor:"transparent",border:"1px solid white",textDecoration:"none"}} href="tel:0503338692" class="button glow-button " type="submit">
+						<a style={{backgroundColor:"transparent",border:"1px solid white",textDecoration:"none",color:'black'}} href="tel:0503338692" class="button glow-button " type="submit">
 							Call Now
 						</a>
 					</form>

@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import ExpImage from "../images/year.jpg";
-import ExpImage1 from "../images/hour.png";
 import ExpImage2 from "../images/money.png";
 import {Ri24HoursFill} from 'react-icons/ri'
 import {RiExchangeDollarFill} from 'react-icons/ri'
@@ -38,7 +37,7 @@ const Ourcompany = () => {
 	return (
 		<>
 			<div className=" pt-20" data-aos="fade-up">
-				<h1 className="only-us text-center text-[#D6B47A]">WHY ONLY US</h1>
+				<p style={{fontSize:"35px"}} className="only-us text-center text-[#D6B47A] ">WHY ONLY US</p>
 
 				<svg
 					width="100vw"

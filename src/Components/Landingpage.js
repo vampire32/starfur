@@ -17,9 +17,9 @@ const Landingpage = (props) => {
 	return (
 		<>
 		<Helmet>
-<title>Used Furniture For Sale Abu Dhabi | Star Used Furniture</title>
-<meta data-rh="true" name="description"content="We are Star Used Furniture in Abu dhabi and Al ain. We buy and sell used furnitures include Royal furniture , Normal Furniture, Ikea Furniture in Abu Dhabi. 0503338692 "></meta>
-<link rel="canonical" href="/usedfurniture"/>
+<title>{props.Htitle}</title>
+<meta  name="description"content="We are Star Used Furniture in Abu dhabi and Al ain. We buy and sell used furnitures include Royal furniture , Normal Furniture, Ikea Furniture in Abu Dhabi. 0503338692 "></meta>
+<link rel="canonical" href={props.HLink}/>
 		</Helmet>
 
 			<div className="bg_navvv">
@@ -28,9 +28,9 @@ const Landingpage = (props) => {
 
 				<div className=" banner_main">
 					<div className=" container text-center bg_white" data-aos="fade-in">
-						<h2 style={{fontSize:"3rem"}}>{props.topname}</h2>
+						<span style={{fontSize:"3rem",color:"#D6B47A"}}>{props.topname}</span>
 						<h1 style={{fontSize:"2rem"}} className=" mb-3">{props.secondryname}</h1>
-						<h3 className="  mb-3">{props.thirdname}</h3>
+						<h2 className="  mb-3">{props.thirdname}</h2>
 						<p className=" mb-5 ">{props.desc}</p>
 						<form  class="  ">
 						<a style={{backgroundColor:"transparent",border:"1px solid #d9c7a4",textDecoration:"none",color:'#d9c7a4'}} href="tel:0503338692" class="button glow-button " type="submit">

@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import NavBar from "./NavBar";
 import { useForm, ValidationError } from "@formspree/react";
-import {Helmet} from "react-helmet-async"
+
 
 const Contact = () => {
   useEffect(() => {
@@ -18,16 +18,6 @@ const Contact = () => {
 	
 	return (
 		<>
-			<Helmet>
-				<title>Used Furniture For Sale Abu Dhabi | Star Used Furniture</title>
-				<meta
-					data-rh="true"
-					name="description"
-					content="We are star used furniture buyers in abu dhabi. contact us for selling aand buying used items.0503338692"
-				></meta>
-				<link rel="canonical" href="/contactus" />
-			</Helmet>
-
 			<section className="contact_section layout_padding" data-aos="fade-up">
 				<div className="container ">
 					<div className="heading_container">
@@ -82,7 +72,7 @@ const Contact = () => {
 							<div className="map_container">
 								<div className="map-responsive">
 									<iframe
-										src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Mussafah39+Abu DhabiTower+United Arab Emirates"
+										src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Ad+Doja+Street2+Mussafah+Musaffah Industrial+Abu DhabiTower+United Arab Emirates"
 										width="600"
 										height="300"
 										frameborder="0"

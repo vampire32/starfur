@@ -183,10 +183,10 @@
   }
 
   .slider_section .detail-box h1 span {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .slider_section .detail-box  span {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
   .slider_section .img-box {
@@ -222,12 +222,12 @@
     text-align: center;
   }
   h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: bold;
   }
   
   h2 {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: bold;
   }
 
@@ -281,6 +281,13 @@
   .contact_section .map_container {
     padding: 0;
   }
+        .company-title h3,
+        h2 {
+          color: #D6B47A;
+          font-weight: bold;
+          font-size: 1.5rem;
+    
+        }
   /* .services_section2 {
     padding-top: 30px;
   } */
@@ -288,8 +295,15 @@
 
 @media (max-width: 576px) {
   .slider_section .detail-box h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
+        .company-title h3,
+        h2 {
+          color: #D6B47A;
+          font-weight: bold;
+          font-size: 1.5rem;
+    
+        }
   .base-layer {
     position: relative;
   
@@ -326,7 +340,7 @@
   }
 
   .slider_section .detail-box h1 span {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   /* .base-layer {
     position: relative;
@@ -355,12 +369,12 @@
   
   }
 h1 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
 }
   .slider_section .play_btn,

@@ -1,5 +1,5 @@
 import "./App.css";
-import React,{useEffect} from 'react'
+import React,{useEffect,useState} from 'react'
 import "./css/style.css";
 import "./css/responsive.css";
 import NavBar from "./Components/NavBar";
@@ -34,11 +34,14 @@ import Testimonials from "./Components/Testimonials";
 
 
 
+
+
+
+
 function App() {
 	
-	
 	return (
-		<>
+		<React.Fragment>
 			<Router>
 				{/* <NavBar /> */}
 
@@ -47,7 +50,7 @@ function App() {
 						<div className="hero_area">
 							<NavBar theme="light" color="black" />
 
-							<Home />
+							<Home HLink="/" />
 						</div>
 
 						<Contactus />
@@ -78,19 +81,7 @@ function App() {
 							title8="Bar and Bar Stools Abu Dhabi"
 							desc8="We offer a variety of used furniture purchase and sell services, as well as a variety of furniture types. We also buy and sell a variety of household things. We also buy used bar tables and bar stools, and if you're looking to buy, then we have them in our Mussafah furniture store. Just contact us and we'll send you photographs via WhatsApp or you can come to our Used furniture store in Mussafah."
 						/>
-						{/* <Poster
-							title="Used Living Room Furniture Abu Dhabi"
-							desc="We offer services for selling and buying old living room furniture (sofa set for sale, sell second-hand sofa or buy a sofa, sell dining table, sell chairs, sell tea table or study table, sell cupboard)."
-							imgdesc="Laboris elit laborum magna ad aliqua veniam eiusmod Lorem cupidatat dolore eu mollit amet."
-							title2="Used Sofa and Sofa bed in Abu Dhabi"
-							desc2="If you don't have a sofa in your living room, it's not a comfortable existence. It doesn't matter if it's a used or new sofa; it must be in your living room. If you are searching to purchase or sell a sofa or a sofa bed, you have arrived at the right location and believe that this is the place where you may realize your desires."
-							imgdesc2="Laboris elit laborum magna ad aliqua veniam eiusmod Lorem cupidatat dolore eu mollit amet."
-							title3="Used Armchair in Al Ain mussafah"
-							desc3="Do you want to buy or sell a used or secondhand armchair? If the answer is yes, then you've come to the right place. Check out our services page and get in touch with us as soon as possible to purchase or sell used furniture in Abu Dhabi."
-							title4="Bar and Bar Stools Abu Dhabi"
-							desc4="We offer a variety of used furniture purchase and sell services, as well as a variety of furniture types. We also buy and sell a variety of household things. We also buy used bar tables and bar stools, and if you're looking to buy, then we have them in our Mussafah furniture store. Just contact us and we'll send you photographs via WhatsApp or you can come to our Used furniture store in Mussafah."
-						/> */}
-					
+
 						<Poster2 />
 
 						<Treding />
@@ -100,9 +91,11 @@ function App() {
 					<Route exact path="/usedfurniture">
 						<Landingpage
 							topname="Star Used Furniture"
-							secondryname=" Used Furniture Buyers Abu Dhabi | Used Furniture Buyers Al Ain"
+							secondryname=" Used Furniture For Sale Abu Dhabi | Star Used Furniture"
 							thirdname="Home Furniture | Office Furniture | Garden Furniture"
 							desc="We are Star Used Furniture in Abu dhabi and Al ain. We buy and sell used furnitures include Royal furniture , Normal Furniture, Ikea Furniture and many more. We have different collections of used furniture for buy and sell. Visit now or contact us."
+							HLink="/usedfurniture"
+							Htitle="Used furniture for sale abu dabhi | star furniture al ain"
 						/>
 						<Contactus />
 						<Furniture
@@ -138,8 +131,10 @@ function App() {
 					</Route>
 					<Route exact path="/homeappliances">
 						<Landingpage
+							HLink="/homeappliances"
+							Htitle="Home Appliances for sale abu dabhi | star furniture al ain"
 							topname="Star Used Furniture"
-							secondryname="Used Home Appliances buyer Abu Dhabi | Home Appliances buyer Al Ain  "
+							secondryname="Used Home Appliances For Sale Abu Dhabi | Star Used Furniture  "
 							thirdname="Home Appliances | Refrigerator | Washing machine | Microwave oven"
 							desc="We are Star Used Furniture in Abu dhabi and Al ain. We buy and sell used home appliances include Drying machine, Dishwasher, Microwave oven, Freezer etc. We have different collections of used home appliances for buy and sell. Visit now or contact us."
 						/>
@@ -175,8 +170,10 @@ Contact Now And sell your product in easiest way. "
 					</Route>
 					<Route exact path="/usedaircondition">
 						<Landingpage
+							HLink="/usedaircondition"
+							Htitle="Used AirCondition for sale abu dabhi | star furniture al ain"
 							topname="Star Used Furniture"
-							secondryname="Used Air Conditioners buyer Abu Dhabi | Air Conditioners buyer Al Ain"
+							secondryname="Used Air Conditioners For Sale Abu Dhabi | Star Used Furniture"
 							thirdname="Split Air Conditioner | General Air Conditioner | Window Air Conditioner | Inverter Air Conditioner"
 							desc="We are Star Used Furniture in Abu dhabi and Al ain. We buy and sell used Air conditioners with best prices. We deals with different kind of Air Conditioners in abu dhabi. We have different collections of used Air condiitoners for buy and sell. Visit now or contact us."
 						/>
@@ -222,7 +219,11 @@ So, If you tired from your old Air Conditioner then we are available to you. Sel
 					<Route exact path="/contactus">
 						{/* <Contact/> */}
 						<NavBar theme="light" color="black" />
-						<Contactus heading="Contact Us" />
+						<Contactus
+							heading="Contact Us"
+							Htitle="Contact us | star used furniture"
+							HLink="/contactus"
+						/>
 						<Contact />
 					</Route>
 					{/* <Route exact path='/poster'>
@@ -234,7 +235,7 @@ So, If you tired from your old Air Conditioner then we are available to you. Sel
 
 				<Footer />
 			</Router>
-		</>
+		</React.Fragment>
 	);
 }
 

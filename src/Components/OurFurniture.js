@@ -14,9 +14,9 @@ const OurFurniture = () => {
   return (
 		<div className=" mt-[50rem] pb-[10rem]">
 			<section className="  text-white">
-				<h4 className="  services_taital mt-5" data-aos="fade-up">
+				<h3 className="  services_taital mt-5" data-aos="fade-up">
 					What's More
-				</h4>
+				</h3>
 
 				<p className=" text-center " data-aos="fade-in">
 					USED HOUSEHOLD ITEMS
@@ -29,7 +29,7 @@ const OurFurniture = () => {
 					<div className=" col-md-1  "></div>
 
 					<div className=" col-md-5 text-center " data-aos="fade-right">
-						<h2 className="text-[2rem] font-bold">
+						<h2 className=" font-bold">
 							USED FURNITURE IN ABU DHABI
 						</h2>
 						<p className=" text-justify pb-10 ">

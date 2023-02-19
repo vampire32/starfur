@@ -14,13 +14,20 @@
     "ajax": "^0.0.4",
     "aos": "^3.0.0-beta.6",
     "express": "^4.18.0",
+    "express-force-https": "^1.0.0",
+    "next": "^12.1.0",
+    "prerender": "^5.20.0",
+    "prerender-node": "^3.5.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-helmet-async": "^1.3.0",
     "react-icons": "^4.3.1",
+    "react-loader-spinner": "^5.1.5",
+    "react-preloaders": "^3.0.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.0",
     "react-snap": "^1.23.0",
+    "react-spinners": "^0.12.0",
     "smtpjs": "^0.0.1",
     "swiper": "^8.1.4",
     "web-vitals": "^2.1.4"
@@ -53,6 +60,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.4",
     "postcss": "^8.4.12",
+    "react-spa-prerender": "^1.0.14",
     "tailwindcss": "^3.0.23"
   }
 }

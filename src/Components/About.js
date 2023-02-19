@@ -24,28 +24,39 @@ const About = () => {
 	}, []);
 	return (
 		<>
-		<Helmet>
-<title>About us</title>
-<meta data-rh="true" name="description"content="Star used furniture has been around for a long time. we know what we're doing we buy and sell used furniture and appliances.0503338692"></meta>
-<link rel="canonical" href="/about"/>
-		</Helmet>
-		
+			<Helmet>
+				<title>About us | star used furniture</title>
+				<meta
+					data-rh="true"
+					name="description"
+					content="Star used furniture has been around for a long time. we know what we're doing we buy and sell used furniture and appliances.0503338692"
+				></meta>
+				<link rel="canonical" href="/about" />
+			</Helmet>
+
 			<div className="bg_nav">
-				< div className="hero-area22">
-				<NavBar  theme="dark" color="white" />
-				<section className="hero-area2">
-					<div className="block" data-aos="fade-in">
-					<p>Welcome to </p>
-						<h1>Star Used Furniture Abu Dhabi</h1>
-						<p>
-						Star used furniture has been around for a long time. Because we buy and sell used furniture and appliances, we know what we're doing. As a used furniture for sale Abu Dhabi and Al Ain company, we have high standards for our products and services, and we aim to meet them with you in mind. There are numerous aspects to consider when selling and acquiring furniture, one of which is that Star used furniture should offer furniture that fits within our budget.
-						</p>
-						<Link data-scroll to="/" className="btn btn-transparent">
-							Explore Us
-						</Link>
-					</div>
-				</section>
-			</div>
+				<div className="hero-area22">
+					<NavBar theme="dark" color="white" />
+					<section className="hero-area2">
+						<div className="block mt-[243px]" data-aos="fade-in">
+							<p>Welcome to </p>
+							<h1>Star Used Furniture Abu Dhabi</h1>
+							<p>
+								Star used furniture has been around for a long time. Because we
+								buy and sell used furniture and appliances, we know what we're
+								doing. As a used furniture for sale Abu Dhabi and Al Ain
+								company, we have high standards for our products and services,
+								and we aim to meet them with you in mind. There are numerous
+								aspects to consider when selling and acquiring furniture, one of
+								which is that Star used furniture should offer furniture that
+								fits within our budget.
+							</p>
+							<Link data-scroll to="/" className="btn btn-transparent">
+								Explore Us
+							</Link>
+						</div>
+					</section>
+				</div>
 			</div>
 			<section className=" about section">
 				<div className="container">
@@ -72,7 +83,9 @@ const About = () => {
 								<div className="content text-center">
 									<h3 className="ddd ">Experience over 10 Year</h3>
 									<p className="dddp">
-										We are experience buyers in Abu dhabi & Al ain. We have a high knowledge of furnitures and appliances for buying and selling.
+										We are experience buyers in Abu dhabi & Al ain. We have a
+										high knowledge of furnitures and appliances for buying and
+										selling.
 									</p>
 								</div>
 							</div>
@@ -91,7 +104,9 @@ const About = () => {
 								<div className="content text-center">
 									<h3 className="ddd">We're Professional</h3>
 									<p className="dddp">
-										We are professional buyers in Abu Dhabi over many years. We know what we sell and buy and We provide professional and reliable services to our customers.
+										We are professional buyers in Abu Dhabi over many years. We
+										know what we sell and buy and We provide professional and
+										reliable services to our customers.
 									</p>
 								</div>
 							</div>
@@ -110,7 +125,9 @@ const About = () => {
 								<div className="content text-center">
 									<h3 className="ddd">Customer Support</h3>
 									<p className="dddp">
-										We have a responsive team for your services and provide 24/7 services. Star used furniture are here to take care of your problems.
+										We have a responsive team for your services and provide 24/7
+										services. Star used furniture are here to take care of your
+										problems.
 									</p>
 								</div>
 							</div>
@@ -128,14 +145,29 @@ const About = () => {
 							<div className="content-block">
 								<h2>We’re Star Used Furniture Abu Dhabi.</h2>
 								<p>
-								Star Used Furniture has been in the sector for many years, and we have assisted in the delivery of high-quality furniture to houses ranging from sofas to beds, tables to cabinets. We have a wide selection of new and used appliances that will suit both your budget and your needs.
+									Star Used Furniture has been in the sector for many years, and
+									we have assisted in the delivery of high-quality furniture to
+									houses ranging from sofas to beds, tables to cabinets. We have
+									a wide selection of new and used appliances that will suit
+									both your budget and your needs.
 								</p>
 								<p>
-								For secondhand furniture, household products, home appliances, and electronics, we are the Ruling Buyers. You may have old, worn-out items to sell to a dependable buyer; we are the most dependable purchasers in Abu Dhabi. You may rely on us to buy your used furniture, appliances, and other home things.
+									For secondhand furniture, household products, home appliances,
+									and electronics, we are the Ruling Buyers. You may have old,
+									worn-out items to sell to a dependable buyer; we are the most
+									dependable purchasers in Abu Dhabi. You may rely on us to buy
+									your used furniture, appliances, and other home things.
 								</p>
-								
-									<p>
-									We also offer great shifting and moving services, and you can always count on us in an emergency circumstance. You can reach out to our team, and they will be happy to assist you. At all times, we are dedicated to giving the finest possible service. In fact, we believe it is our responsibility as professionals in this field, and we will go to any length for you! That means if you ever have a situation that requires immediate response, don't hesitate to contact us.
+
+								<p>
+									We also offer great shifting and moving services, and you can
+									always count on us in an emergency circumstance. You can reach
+									out to our team, and they will be happy to assist you. At all
+									times, we are dedicated to giving the finest possible service.
+									In fact, we believe it is our responsibility as professionals
+									in this field, and we will go to any length for you! That
+									means if you ever have a situation that requires immediate
+									response, don't hesitate to contact us.
 								</p>
 								<div className="row">
 									<div className="col-md-6">
@@ -146,7 +178,13 @@ const About = () => {
 											<div className="media-body">
 												<h4 className="media-heading">Our Mission</h4>
 												<p>
-												By providing clients with high-quality items at reasonable pricing and unmatched customer service, we are able to continue to innovate and grow. It exemplifies the country's highest goals, ethos, and commitment. Star Used Furniture is committed to providing the highest level of quality – on par with any other well-known international brand.
+													By providing clients with high-quality items at
+													reasonable pricing and unmatched customer service, we
+													are able to continue to innovate and grow. It
+													exemplifies the country's highest goals, ethos, and
+													commitment. Star Used Furniture is committed to
+													providing the highest level of quality – on par with
+													any other well-known international brand.
 												</p>
 											</div>
 										</div>
@@ -159,7 +197,10 @@ const About = () => {
 											<div className="media-body">
 												<h4 className="media-heading">Our Vision</h4>
 												<p>
-												To be a commercially strong corporation that achieves high levels of customer satisfaction in the sector of furniture, home appliances, and electronics. You can rely on us to deliver only the finest.{" "}
+													To be a commercially strong corporation that achieves
+													high levels of customer satisfaction in the sector of
+													furniture, home appliances, and electronics. You can
+													rely on us to deliver only the finest.{" "}
 												</p>
 											</div>
 										</div>

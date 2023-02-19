@@ -43,11 +43,11 @@ const Treding = () => {
 										aria-controls="collapseOne"
 									>
 										<div className="number">
-											<h5>01</h5>
+											<h4>01</h4>
 										</div>
 										<hr />
 										<div className="t-name">
-											<h5>Chairs</h5>
+											<h4>Chairs</h4>
 										</div>
 									</div>
 									<div
@@ -58,11 +58,11 @@ const Treding = () => {
 										aria-controls="collapseTwo"
 									>
 										<div className="number">
-											<h5>02</h5>
+											<h4>02</h4>
 										</div>
 										<hr />
 										<div className="t-name">
-											<h5>Tables</h5>
+											<h4>Tables</h4>
 										</div>
 									</div>
 									<div
@@ -73,11 +73,11 @@ const Treding = () => {
 										aria-controls="collapseThree"
 									>
 										<div className="number">
-											<h5>03</h5>
+											<h4>03</h4>
 										</div>
 										<hr />
 										<div className="t-name">
-											<h5>Beds</h5>
+											<h4>Beds</h4>
 										</div>
 									</div>
 									<div
@@ -88,11 +88,11 @@ const Treding = () => {
 										aria-controls="collapseFour"
 									>
 										<div className="number">
-											<h5>04</h5>
+											<h4>04</h4>
 										</div>
 										<hr />
 										<div className="t-name">
-											<h5>Furnitures</h5>
+											<h4>Furnitures</h4>
 										</div>
 									</div>
 								</div>

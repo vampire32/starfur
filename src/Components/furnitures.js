@@ -10,12 +10,15 @@ const Furniture = (props) => {
 		});
 	}, []);
 	return (
-		
 		<section className="ui-section-feature">
 			<div className="ui-layout-container">
-				<h1 className="text-center " data-aos="fade-up">
+				<p
+					style={{ fontSize: "30px" }}
+					className="text-center sm:text-[20px]"
+					data-aos="fade-up"
+				>
 					{props.heading}
-				</h1>
+				</p>
 				<p className=" text-center " data-aos="fade-up">
 					Buy and Sell used furniture in Abu Dhabi
 				</p>
@@ -28,7 +31,7 @@ const Furniture = (props) => {
 					/>
 
 					<div data-aos="fade-up" className="text-justify lg:w-[30vw]">
-						<h2 className="text-[32px] mb-5">{props.Name}</h2>
+						<h2 className="text-[32px] sm:text-[22px] mb-5">{props.Name}</h2>
 						<p className="ui-text-intro leading-10">{props.desc}</p>
 						<p className="ui-text-intro mt-3">{props.desc2nd}</p>
 						<p className="ui-text-intro mt-3">{props.desc3nd}</p>
@@ -51,7 +54,7 @@ const Furniture = (props) => {
 				</div>
 				<div className="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
 					<div data-aos="fade-up" className="text-justify">
-						<h2 className="text-[32px] mb-5">{props.Name2}</h2>
+						<h2 className="text-[32px] sm:text-[22px] mb-5">{props.Name2}</h2>
 						<p className="ui-text-intro leading-10">{props.desc2}</p>
 						<ul className="ui-component-list ui-component-list-feature ui-layout-grid mt-8">
 							<li className="ui-component-list--item ui-component-list--item-check">
@@ -73,7 +76,6 @@ const Furniture = (props) => {
 						alt="Furniture buyer Abu Dhabi"
 						className=" h-[400px] w-100  rounded-3xl ml-5 "
 						data-aos="fade-up"
-						
 					/>
 				</div>
 				<div className="ui-section-feature__layout ui-layout-grid ui-layout-grid-2 mt-10">
@@ -85,7 +87,7 @@ const Furniture = (props) => {
 					/>
 
 					<div data-aos="fade-up" className="text-justify lg:w-[30vw]">
-						<h2 className="text-[32px] mb-5">{props.Name3}</h2>
+						<h2 className="text-[32px] sm:text-[22px] mb-5">{props.Name3}</h2>
 						<p className="ui-text-intro leading-10">{props.desc3}</p>
 						<ul className="ui-component-list ui-component-list-feature ui-layout-grid mt-8">
 							<li className="ui-component-list--item ui-component-list--item-check">

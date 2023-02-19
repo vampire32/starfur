@@ -1,24 +1,46 @@
-import React from 'react'
+import React, {useState} from 'react'
 import PLay from '../images/play.png'
 import Slider from '../images/furniture-chair.png'
 import Slider1 from '../images/home-appliances.png'
 import Slider2 from '../images/air-conditioner.png'
 import Slider3 from '../images/household-items.png'
 import {Helmet} from "react-helmet-async"
+import { FaArrowCircleUp } from "react-icons/fa";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-const Home = () => {
+import '../css/Loader.css'
+const Home = (props) => {
+	const [showScroll, setShowScroll] = useState(false);
+	const checkScrollTop = () => {
+		if (!showScroll && window.pageYOffset > 400) {
+			setShowScroll(true);
+		} else if (showScroll && window.pageYOffset <= 400) {
+			setShowScroll(false);
+		}
+	};
+	window.addEventListener("scroll", checkScrollTop);
+	const scrollTop = () => {
+		window.scrollTo({ top: 0, behavior: "smooth" });
+	};
+	
+	
+	
    
 			
    
   return (
 		<>
-	
 			<Helmet>
-<title>Used Furniture For Sale Abu Dhabi | Star Used Furniture</title>
-<meta data-rh="true" name="description"content="We are Star Used Furniture in Abu dhabi and Al ain. We buy and sell used furnitures include Royal furniture , Normal Furniture, Ikea Furniture in Abu Dhabi. 0503338692 "></meta>
-<link rel="canonical" href="/Home"/>
-		</Helmet>
-			<section className="slider_section ">
+				<title>Used Furniture Buyer Abu Dhabi | Star Furniture Buyer Al Ain</title>
+				<meta
+					data-rh="true"
+					name="description"
+					content="We are Star Used Furniture in Abu dhabi and Al ain. We buy and sell used furnitures include Royal furniture , Normal Furniture, Ikea Furniture in Abu Dhabi. 0503338692 "
+				></meta>
+				{/* <link rel="canonical" href="/" /> */}
+				<link rel='canconical' href={props.Hlink}/>
+			</Helmet>
+			
+			<section className="slider_section " >
 				<div className="play_btn">
 					<a href="">
 						<img src={PLay} alt="Used furniture buyer Abu Dhabi" />
@@ -57,8 +79,7 @@ const Home = () => {
 										<div className="detail-box">
 											<span>LIFE STAR USED FURNITURE.</span>
 											<h1>
-												Used Furniture Buyer Abu Dhabi | Furniture
-											    Buyer Al Ain
+												Used Furniture Buyer Abu Dhabi | Furniture Buyer Al Ain
 											</h1>
 
 											<p>
@@ -121,7 +142,10 @@ const Home = () => {
 									</div>
 									<div className="col-md-6 img-container">
 										<div className="img-box">
-											<img src={Slider1} alt="Used home appliances buyer Abu Dhabi" />
+											<img
+												src={Slider1}
+												alt="Used home appliances buyer Abu Dhabi"
+											/>
 										</div>
 									</div>
 								</div>
@@ -157,7 +181,10 @@ const Home = () => {
 									</div>
 									<div className="col-md-6 img-container">
 										<div className="img-box">
-											<img src={Slider2} alt="Used air conditioner buyer Abu Dhabi" />
+											<img
+												src={Slider2}
+												alt="Used air conditioner buyer Abu Dhabi"
+											/>
 										</div>
 									</div>
 								</div>
@@ -191,7 +218,10 @@ const Home = () => {
 									</div>
 									<div className="col-md-6 img-container">
 										<div className="img-box">
-											<img src={Slider3} alt="Used household items buyer Abu Dhabi" />
+											<img
+												src={Slider3}
+												alt="Used household items buyer Abu Dhabi"
+											/>
 										</div>
 									</div>
 								</div>
@@ -199,6 +229,11 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
+				<FaArrowCircleUp
+					className="scrollTop"
+					onClick={scrollTop}
+					style={{ height: 40, display: showScroll ? "flex" : "none" }}
+				/>
 			</section>
 		</>
 	);
